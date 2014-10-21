@@ -1,6 +1,6 @@
 # move2diaspora
 
-This is a lil facebook-to-diaspora migration tool that has been useful in my friend circles. The idea is that you can see all your friend's diaspora usernames that have already used it. You go there, save your diaspora username, and you & your friends can see each other listed, so you can add each other to diaspora. See it running, [here](http://move2diaspora.herokuapp.com/).
+This is a lil facebook-to-diaspora migration tool that has been useful in my friend circles. The idea is that you can see all your friend's diaspora usernames that have already used it. You go there, save your diaspora username, and you & your friends can see each other listed, so you can add each other to diaspora. See it running, [here](https://move2diaspora.herokuapp.com/).
 
 ## todo
 
