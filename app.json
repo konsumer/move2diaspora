@@ -1,0 +1,25 @@
+{
+  "name": "move2ello",
+  "description": "Migration tool for facebook to ello",
+  "logo": "http://www.globalresearch.ca/wp-content/uploads/2014/09/Ello2.png",
+  "keywords": [
+    "ello",
+    "facebook"
+  ],
+
+  "website": "https://github.com/konsumer/move2ello",
+  "repository": "https://github.com/konsumer/move2ello",
+  "success_url": "/status",
+
+  "env": {
+    "FACEBOOK_APP_ID": {
+      "description": "Your Facebook App ID from https://developers.facebook.com/apps/",
+      "required": true
+    },
+    "FACEBOOK_APP_SECRET": {
+      "description": "Your Facebook App Secret from https://developers.facebook.com/apps/",
+      "required": true
+    }
+  },
+  "addons": ["mongolab"]
+}
