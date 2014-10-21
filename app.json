@@ -1,7 +1,7 @@
 {
   "name": "move2diaspora",
   "description": "Migration tool for facebook to diaspora",
-  "logo": "http://www.globalresearch.ca/wp-content/uploads/2014/09/Ello2.png",
+  "logo": "https://s3.amazonaws.com/cloud.ohloh.net/attachments/41075/diaspora-apple-touch-icon_med.png",
   "keywords": [
     "diaspora",
     "facebook"
