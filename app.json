@@ -1,14 +1,14 @@
 {
-  "name": "move2ello",
-  "description": "Migration tool for facebook to ello",
+  "name": "move2diaspora",
+  "description": "Migration tool for facebook to diaspora",
   "logo": "http://www.globalresearch.ca/wp-content/uploads/2014/09/Ello2.png",
   "keywords": [
-    "ello",
+    "diaspora",
     "facebook"
   ],
 
-  "website": "https://github.com/konsumer/move2ello",
-  "repository": "https://github.com/konsumer/move2ello",
+  "website": "https://github.com/konsumer/move2diaspora",
+  "repository": "https://github.com/konsumer/move2diaspora",
   "success_url": "/status",
 
   "env": {
