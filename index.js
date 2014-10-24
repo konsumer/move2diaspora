@@ -8,6 +8,7 @@ var express = require('express'),
 	mongoose = require('mongoose'),
 	fs = require('fs'),
 	path = require('path'),
+	webfinger = require('webfinger'),
 	port = parseInt(process.env.PORT, 10) || 4567;
 
 // load config
@@ -130,6 +131,15 @@ app.get('/auth', function(req, res){
 	}, function (err, facebookRes) {
 		res.cookie('token', facebookRes.access_token, {maxAge: facebookRes.expires});
 		res.redirect('/');
+	});
+});
+
+// figure out profile URL & redirect to it
+app.get('/user/:diaspora', function(req,res){
+	webfinger(req.param('diaspora'), function(err, info){
+		if(err) return res.status(500).send(err);
+		// res.send(info);
+		res.redirect(info.profile);
 	});
 });
 
